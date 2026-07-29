@@ -4,7 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import { ArrowRight, Radio, UserRound } from "lucide-react"
 
-const HIGHLIGHTS = ["Excel", "Power BI", "Python", "IELTS 7.0", "Gamification"]
+const HIGHLIGHTS = ["IELTS Tutoring", "Data Literacy", "Power BI", "Python", "Gamified Learning"]
 
 export function HeroSection() {
   return (
@@ -22,26 +22,28 @@ export function HeroSection() {
           </h1>
 
           <p className="mt-5 max-w-2xl text-pretty font-mono text-sm leading-relaxed text-primary/90 sm:text-base">
-            First-year International Economics student at FTU | aspiring Data Analyst | IELTS &amp; STEM educator
+            FTU International Economics student | IELTS Tutor | aspiring Data Analyst | Education &amp; communication strategist
           </p>
 
           <p className="mt-4 max-w-2xl text-pretty text-sm leading-relaxed text-muted-foreground sm:text-base">
-            I’m building a career at the intersection of data, communication, and education. My goal is to turn analytical thinking into practical insights while creating engaging learning experiences for others.
+            I combine analytical thinking, tutoring experience, and community leadership to build a profile that bridges education, communication, and data. This portfolio highlights the skills and achievements that matter most in my CV and career direction.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">
             <a
-              href="#telemetry"
+              href="https://moral-jade-emrj0zvi.edgeone.dev/?fbclid=IwY2xjawTWQMRwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMWdjQmgzY2d0M1ppbld3clNzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeHMF-KdPZ1C7G8x18e8lyC8BQ48OLepcD_PoG47xnCf3DZSk-2VGWfWqrlVU_aem_oVklx5YA9WBe4lrgG5QJvA"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-4 py-2 text-sm font-medium text-primary transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary/20"
             >
-              Explore my journey
+              Open full portfolio CV
               <ArrowRight className="h-4 w-4" />
             </a>
             <a
-              href="#contact"
+              href="#telemetry"
               className="rounded-full border border-primary/20 px-4 py-2 text-sm font-medium text-muted-foreground transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/50 hover:text-primary"
             >
-              Get in touch
+              See my journey
             </a>
           </div>
 
